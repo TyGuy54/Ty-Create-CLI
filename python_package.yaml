@@ -1,0 +1,9 @@
+# ==========================================================
+#           PYTHON PROJECT BUILD CONIGERATION
+# ==========================================================
+
+# example project structure for testing
+build_dir: 'example_project_name' # have this where the user names there project
+
+boilerplate_location:
+- source_location: 'boilerplate'

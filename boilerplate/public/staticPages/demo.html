@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Go Webapp Template</title>
+    </head>
+    <style>
+
+        li{
+            color:  floralwhite;
+            margin: auto;
+            margin-right: 50px;
+            display: block;
+            cursor: pointer;
+        }
+
+        li:hover{
+            background-color: gray
+            
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .Nav{
+            background-color: black;
+            column-span: all;
+            display: block ruby;
+        }
+
+    </style>
+    <body>
+        <div class="Nav">
+            <table>
+                <li>
+                    <h3>Home</h3>
+                </li>
+                <li>
+                    <h3>About</h3>
+                </li>
+                <li>
+                    <h3>Contacts</h3>
+                </li>
+            </table>
+        </div>
+        <h1 class="center">{{.title}}</h1>
+        <div class="center">
+            <h1>Go React Demo</h1>
+        </div>
+    </body>
+</html>
